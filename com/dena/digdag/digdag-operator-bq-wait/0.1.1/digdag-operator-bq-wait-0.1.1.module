@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.dena.digdag",
+    "module": "digdag-operator-bq-wait",
+    "version": "0.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "digdag-operator-bq-wait-0.1.1.jar",
+          "url": "digdag-operator-bq-wait-0.1.1.jar",
+          "size": 7780,
+          "sha512": "c2b06864794461de27bc496e007d9caeaf87e3c6a0ad45a20730ac97dbef986c92e6b8f8cb7a1e9fba8ca3a50c421d1da7ebbff5a5a8e164c2d6391a2817a95f",
+          "sha256": "c7eb4368ac450bc34afc4be684acefee79bb1c8b6b53c7816b00b1f824e8e4e0",
+          "sha1": "58d19e7ed93915b0ea83250fd27d8c5c24927c73",
+          "md5": "ad1be2af9af8d3d239c66e24c0e0ca62"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.cloud",
+          "module": "google-cloud-bigquery",
+          "version": {
+            "requires": "2.27.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "digdag-operator-bq-wait-0.1.1.jar",
+          "url": "digdag-operator-bq-wait-0.1.1.jar",
+          "size": 7780,
+          "sha512": "c2b06864794461de27bc496e007d9caeaf87e3c6a0ad45a20730ac97dbef986c92e6b8f8cb7a1e9fba8ca3a50c421d1da7ebbff5a5a8e164c2d6391a2817a95f",
+          "sha256": "c7eb4368ac450bc34afc4be684acefee79bb1c8b6b53c7816b00b1f824e8e4e0",
+          "sha1": "58d19e7ed93915b0ea83250fd27d8c5c24927c73",
+          "md5": "ad1be2af9af8d3d239c66e24c0e0ca62"
+        }
+      ]
+    }
+  ]
+}
